@@ -49,3 +49,5 @@ cd ..
 
 # Start the Minecraft server
 ./start.sh
+sleep 60
+screen -Rd minecraft -X stuff "op jkramer5103"

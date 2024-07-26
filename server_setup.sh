@@ -13,10 +13,10 @@ mkdir mc
 cd mc
 
 # Download Spigot server JAR file
-wget https://download.getbukkit.org/spigot/spigot-1.20.4.jar
+wget https://download.getbukkit.org/spigot/spigot-1.21.jar
 
 # Create start script for Spigot server
-echo "screen -dmS mcServer java -Xmx1024M -Xms1024M -jar spigot-1.20.4.jar" > start.sh
+echo "screen -dmS mcServer java -Xmx1024M -Xms1024M -jar spigot-1.21.jar" > start.sh
 chmod +x start.sh
 
 # Agree to Minecraft EULA

@@ -4,7 +4,7 @@
 apt update
 
 # Install OpenJDK 17 JRE headless
-apt install -y openjdk-17-jre-headless
+apt install -y openjdk-21-jre-headless
 
 # Prompt user for server IP address or name
 
